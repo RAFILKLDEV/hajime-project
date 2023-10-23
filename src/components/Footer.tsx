@@ -8,27 +8,31 @@ export function Footer() {
         </div>
         <div className="flex gap-[155px] text-[24px]">
           <div className="flex flex-col gap-[30px]">
-            <div>index</div>
+            <div className="font-bold text-[24px]">index</div>
             <div className="flex flex-col gap-[16px]">
-              <div>index</div>
-              <div>index</div>
-              <div>index</div>
+              <div>home</div>
+              <div>hajime</div>
+              <div>serviços</div>
+              <div>cases</div>
             </div>
           </div>
           <div className="flex flex-col gap-[30px]">
-            <div>index</div>
+            <div className="font-bold text-[24px]">redes</div>
             <div className="flex flex-col gap-[16px]">
-              <div>index</div>
-              <div>index</div>
-              <div>index</div>
+              <div>Instagram</div>
+              <div>Facebook</div>
+              <div>Linkedin</div>
             </div>
           </div>
           <div className="flex flex-col gap-[30px]">
-            <div>index</div>
+            <div className="font-bold text-[24px]">diga olá</div>
             <div className="flex flex-col gap-[16px]">
-              <div>index</div>
-              <div>index</div>
-              <div className="w-[320px]">SEPS 712/912, Lote C, Edifício Grand Ville - Bloco A - Asa Sul, Brasília - Brasil</div>
+              <div>ola@hajime.com</div>
+              <div>+55 61 9 9806-2229</div>
+              <div className="w-[320px]">
+                SEPS 712/912, Lote C, Edifício Grand Ville - Bloco A - Asa Sul,
+                Brasília - Brasil
+              </div>
             </div>
           </div>
         </div>

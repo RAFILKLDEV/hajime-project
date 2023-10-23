@@ -9,7 +9,7 @@ import { Servicos } from "components/Servicos";
 function App() {
   return (
     <main className="flex justify-center">
-      <div className="bg-green-100 w-[1440px] h-full">
+      <div className="w-[1440px] h-full font-genSans">
         <Header />
         <Intro />
         <Frame1 />
