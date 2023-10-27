@@ -9,14 +9,14 @@ import { Servicos } from "components/organisms/Servicos";
 function App() {
   return (
     <main className="flex justify-center items-center w-full">
-      <div className="w-[1440px] phone:w-[320px] h-full font-genSans">
+      <div className="desktop:w-[1440px] tablet:w-[768px] phone:w-[320px] h-full font-genSans">
         <Header />
         <Intro />
         <Frame1 />
         <Servicos />
         <Diferencial />
-        {/* <Orcamento /> */}
-        {/* <Footer /> */}
+        <Orcamento />
+        <Footer />
       </div>
     </main>
   );
