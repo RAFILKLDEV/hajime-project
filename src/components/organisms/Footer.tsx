@@ -23,21 +23,28 @@ export function Footer() {
           </div>
           <div className="flex flex-col gap-[30px]">
             <div className="font-bold text-[24px]">redes</div>
-            <div className="flex flex-col gap-[16px]">
-              <div>Instagram</div>
-              <div>Facebook</div>
-              <div>Linkedin</div>
+            <div className="flex flex-col gap-[16px] justify-start">
+              <a
+                href="https://www.instagram.com/hajimehubdigital/"
+                className="flex gap-2 h-6 items-center"
+              >
+                <img src="icons/Instagram.png" width={30} height={10} />
+                Instagram
+              </a>
+              <a href="" className="flex gap-2 h-6 items-center">
+                <img src="icons/Facebook.png" width={30} height={10} />
+                Facebook
+              </a>
+              <a href="" className="flex gap-2 h-6 items-center">
+                <img src="icons/Linkedin.png" width={30} height={10} />
+                Linkedin
+              </a>
             </div>
           </div>
-          <div className="tablet:justify-evenly tablet:items-start phone:items-center flex flex-col gap-[30px]">
+          <div className="tablet:items-start phone:items-center flex flex-col gap-[30px]">
             <div className="font-bold text-[24px]">diga olá</div>
             <div className="desktop:w-[317px] tablet:w-[220px] tablet:items-start phone:items-center flex flex-col gap-[16px]">
-              <div>ola@hajime.com</div>
-              <div>+55 61 9 9806-2229</div>
-              <div className="">
-                SEPS 712/912, Lote C, Edifício Grand Ville - Bloco A - Asa Sul,
-                Brasília - Brasil
-              </div>
+              <div>hajimehubdigital@gmail.com</div>
             </div>
           </div>
         </div>

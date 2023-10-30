@@ -20,13 +20,13 @@ export function Servicos() {
             <div className="desktop:text-[24px] desktop:mt-[32px] tablet:text-left tablet:mt-[16px] phone:mt-[16px] phone:text-[16px] phone:text-center phone:leading-[20px] mt-[31px] underline leading-[30px]">
               Entre em contato para consultar um serviço
             </div>
-            <div className="tablet:block phone:hidden tablet:mt-[36px]">
+            {/* <div className="tablet:block phone:hidden tablet:mt-[36px]">
               <Eclipse
                 nameIcon="Ellipse1.svg"
                 title="comece agora"
                 colorTitle={false}
               />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="tablet:flex-row tablet:justify-center w-full tablet:gap-[16px] phone:flex-col phone:mt-[50px] phone:gap-[24px] phone:items-center desktop:mt-[72px] desktop:gap-[16px] flex">
@@ -46,13 +46,13 @@ export function Servicos() {
             desc="Impulsione seus negócios em até 20-35% por ano com um novo site."
             icon="Thumbs.png"
           />
-          <div className="tablet:hidden phone:mt-[64px] desktop:mt-[36px]">
+          {/* <div className="tablet:hidden phone:mt-[64px] desktop:mt-[36px]">
             <Eclipse
               nameIcon="Ellipse1.svg"
               title="comece agora"
               colorTitle={false}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </>

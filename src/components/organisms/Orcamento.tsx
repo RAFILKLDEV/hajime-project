@@ -12,7 +12,7 @@ export function Orcamento() {
           Faça seu orçamento agora mesmo com um de nossos especialistas e comece
           em menos de 2 dias!
         </div>
-        <div className="tablet:mt-[54px] flex gap-[24px] mt-[64px]">
+        {/* <div className="tablet:mt-[54px] flex gap-[24px] mt-[64px]">
           <Ellipse
             nameIcon="Ellipse1.svg"
             title="comece agora"
@@ -23,7 +23,7 @@ export function Orcamento() {
             title="conheça mais"
             colorTitle={true}
           />
-        </div>
+        </div> */}
         <div className="phone:mt-[86px] border-[1px] mt-[193px] border-gray-200 w-full">
           {" "}
         </div>

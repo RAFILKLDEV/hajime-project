@@ -8,9 +8,9 @@ export default function Ellipse({
   colorTitle: boolean;
 }) {
   return (
-    <div className="phone:w-[112px] phone:h-[112px]  tablet:h-[112px] tablet:w-[112px]  flex justify-center items-center">
+    <div className="phone:w-[82px] phone:h-[82px]  tablet:h-[82px] tablet:w-[82px]  flex justify-center items-center">
       <img
-        className="phone:w-[112px] phone:h-[112px] absolute tablet:h-[112px] tablet:w-[112px] "
+        className="phone:w-[82px] phone:h-[82px] absolute tablet:h-[82px] tablet:w-[82px] "
         src={`/icons/${nameIcon}`}
       />
       <div
