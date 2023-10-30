@@ -1,5 +1,4 @@
 import CardService from "components/molecules/CardService";
-import Eclipse from "components/atoms/Ellipse";
 
 export function Servicos() {
   return (

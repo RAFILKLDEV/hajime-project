@@ -1,4 +1,3 @@
-import Ellipse from "components/atoms/Ellipse";
 import CardDiferencial from "components/molecules/CardDiferencial";
 
 export function Diferencial() {

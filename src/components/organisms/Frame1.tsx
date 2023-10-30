@@ -1,4 +1,3 @@
-import Ellipse from "components/atoms/Ellipse";
 
 export function Frame1() {
   return (
