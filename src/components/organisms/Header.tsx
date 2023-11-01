@@ -1,4 +1,5 @@
 import Ellipse from "components/atoms/Ellipse";
+import { irPara } from "components/fuctions";
 
 export function Header() {
   return (
@@ -9,12 +10,26 @@ export function Header() {
           className="desktop:w-[205px] tablet:w-[162px] phone:w-[135px]"
         />
         <div className="gap-[24px] underline desktop:flex tablet:hidden phone:hidden">
-          <div className="font-[16px]">Home</div>
-          <div className="font-[16px]">Hajime</div>
-          <div className="font-[16px]">Serviços</div>
-          <div className="font-[16px]">Cases</div>
+          <a href="" className="font-[16px]">
+            Home
+          </a>
+          <button onClick={() => irPara("sobre")} className="font-[16px]">
+            Hajime
+          </button>
+          <button onClick={() => irPara("servicos")} className="font-[16px]">
+            Serviços
+          </button>
+          {/* <a href="" className="font-[16px]">
+            Cases
+          </a> */}
         </div>
-        <Ellipse title="orçamento" nameIcon="Ellipse1.svg" colorTitle={false} />
+        <a href="https://bit.ly/3J8I978">
+          <Ellipse
+            title="orçamento"
+            nameIcon="Ellipse1.svg"
+            colorTitle={false}
+          />
+        </a>
       </div>
     </>
   );

@@ -1,7 +1,12 @@
+import { irPara } from "components/fuctions";
+
 export function Intro() {
   return (
     <>
-      <div className="desktop:px-[56px] desktop:mt-[151px] tablet:px-[24px] tab phone:mt-[47px] phone:px-[16px]">
+      <div
+        id="hajime"
+        className="desktop:px-[56px] desktop:mt-[151px] tablet:px-[24px] tab phone:mt-[47px] phone:px-[16px]"
+      >
         <div className="desktop:w-[1104px] desktop:text-[104px] desktop:leading-[104px] tablet:text-left tablet:w-[520px] tablet:[56px] phone:text-[48px] phone:text-center phone:leading-[48px] font-genSans font-bold">
           seja bem-vindo a nova forma de fazer
         </div>
@@ -15,10 +20,12 @@ export function Intro() {
         suave e precisa.
       </div>
       <div className="desktop:w-full phone:mt-[64px] flex tablet:justify-center phone:justify-center mt-[69px]">
-        <img
-          src="/icons/Arrow.svg"
-          className="desktop:w-[64px] desktop:h-[64px] tablet:w-[48px] tablet:h-[48px] phone:w-[40px] phone:h-[40px] "
-        />
+        <button onClick={() => irPara("sobre")}>
+          <img
+            src="/icons/Arrow.svg"
+            className="desktop:w-[64px] desktop:h-[64px] tablet:w-[48px] tablet:h-[48px] phone:w-[40px] phone:h-[40px] "
+          />
+        </button>
       </div>
     </>
   );

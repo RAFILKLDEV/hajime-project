@@ -16,7 +16,7 @@ export default function Ellipse({
       <div
         className={`phone:text-[14px] z-10 w-[60px] flex justify-center text-center ${
           colorTitle ? "text-[#A02828]" : "text-[#F7F7F7]"
-        } tablet:text-[16px]`}
+        } tablet:text-[14px]`}
       >
         {title}
       </div>

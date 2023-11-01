@@ -1,8 +1,10 @@
-
 export function Frame1() {
   return (
     <>
-      <div className="desktop:flex-row desktop:items-center desktop:justify-between desktop:mt-[286px] desktop:px-[56px] tablet:mt-[132px] tablet:px-[24px] phone:px-[16px] phone:mt-[96px] phone:flex-col phone:gap-[0px] flex gap-[173px]">
+      <div
+        id="sobre"
+        className="desktop:flex-row desktop:items-center desktop:justify-between desktop:mt-[220px] desktop:px-[56px] tablet:mt-[132px] tablet:px-[24px] phone:px-[16px] phone:mt-[96px] phone:flex-col phone:gap-[0px] flex gap-[173px]"
+      >
         <div className="desktop:w-[542px] flex flex-col">
           <div className="tablet:text-left phone:text-center  leading-[15px] font-bold text-[#A02828] text-[12px] ">
             SOBRE

@@ -8,7 +8,7 @@ import { Servicos } from "components/organisms/Servicos";
 
 function App() {
   return (
-    <main className="flex justify-center items-center w-full">
+    <main id="home" className="flex justify-center items-center w-full">
       <div className="desktop:w-[1440px] tablet:w-[768px] phone:w-[320px] h-full font-genSans">
         <Header />
         <Intro />

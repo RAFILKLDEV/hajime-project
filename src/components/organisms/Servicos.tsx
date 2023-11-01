@@ -3,7 +3,7 @@ import CardService from "components/molecules/CardService";
 export function Servicos() {
   return (
     <>
-      <div className="desktop:px-[56px] desktop:mt-[203px] tablet:mt-[116px] tablet:items-start tablet:px-[24px] phone:px-[16px] phone:mt-[96px] flex flex-col">
+      <div id="servicos" className="desktop:px-[56px] desktop:mt-[203px] tablet:mt-[116px] tablet:items-start tablet:px-[24px] phone:px-[16px] phone:mt-[96px] flex flex-col">
         <div className="phone:text-center font-bold text-red-800 text-[12px]">
           SERVIÇOS
         </div>
@@ -16,9 +16,9 @@ export function Servicos() {
               Serviços de extrema qualidade por um valor acessível para começar
               da maneira certa!
             </div>
-            <div className="desktop:text-[24px] desktop:mt-[32px] tablet:text-left tablet:mt-[16px] phone:mt-[16px] phone:text-[16px] phone:text-center phone:leading-[20px] mt-[31px] underline leading-[30px]">
+            <a href="https://bit.ly/3J8I978" className="desktop:text-[24px] desktop:mt-[32px] tablet:text-left tablet:mt-[16px] phone:mt-[16px] phone:text-[16px] phone:text-center phone:leading-[20px] mt-[31px] underline leading-[30px]">
               Entre em contato para consultar um serviço
-            </div>
+            </a>
             {/* <div className="tablet:block phone:hidden tablet:mt-[36px]">
               <Eclipse
                 nameIcon="Ellipse1.svg"
