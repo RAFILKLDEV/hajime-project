@@ -10,7 +10,7 @@ export function Footer() {
             className="desktop:w-[205px] tablet:w-[162px]"
           />
           <div className="phone:text-center">
-            © 2022 hajime, Todos os direitos reservados.
+            © 2023 hajime, Todos os direitos reservados.
           </div>
         </div>
         <div className="desktop:gap-[155px] desktop:text-[24px] tablet:flex-nowrap tablet:justify-between tablet:px-24 tablet:items-start phone:text-[16px] phone:flex-wrap phone:gap-[20px] phone:items-center phone:justify-center flex">
@@ -51,7 +51,7 @@ export function Footer() {
                 Linkedin
               </a> */}
               <a href="" className="flex gap-2 h-8 items-center">
-                <img src="icons/Linkedin.png" width={30} height={10} />
+                <img src="icons/Email.png" width={30} height={10} />
                 hajimehubdigital@gmail.com
               </a>
             </div>
