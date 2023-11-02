@@ -33,17 +33,17 @@ export function Servicos() {
             title="social media - orgânico"
             desc="Aumente seu alcance e seguidores e conquiste o seu público da
               maneira certa!"
-            icon="Thumbs.png"
+            icon="Thumb.svg"
           />
           <CardService
             title="tráfego pago - google ads"
             desc="Anúncios que convertem e geram impressões para sua marca."
-            icon="Thumbs.png"
+            icon="Group.svg"
           />
           <CardService
             title="desenvolvimento de software"
             desc="Impulsione seus negócios em até 20-35% por ano com um novo site."
-            icon="Thumbs.png"
+            icon="Idea.svg"
           />
           {/* <div className="tablet:hidden phone:mt-[64px] desktop:mt-[36px]">
             <Eclipse
